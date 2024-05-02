@@ -1,0 +1,23 @@
+
+
+// custom variables 
+// $primary : tomato;
+// $light: #fbf5e5;
+
+// import the function and variables 
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";  
+
+$custom-theme-colors: (
+    'altlight' :  #f2ebfa,
+    'altdark' : #522192 
+    );
+ 
+
+$theme-colors:  map-merge($custom-theme-colors, $theme-colors); 
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+ 
